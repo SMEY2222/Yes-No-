@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do You Love Me?</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .container img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    #yes, #no {
+      background: blue;
+      color: white;
+      padding: 10px 20px;
+      font-size: 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    #no {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmdmbGhncm9qdDZvZHJiajY5eHJ5aXUwM2V0YnBlenlrbmhuNzJ0NCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/XA3973BWk2rCs9P57Y/200.webp" alt="Love GIF">
+    <h1>Do You Love Me 💕💕?</h1>
+    <div class="buttons">
+      <a href="https://youtu.be/TsCXMRVAnVE?si=O_8t0NZEIkAa8jip"​ target="_blank">
+        <button id="yes">Yes</button>
+      </a>
+      <button id="no">No</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
